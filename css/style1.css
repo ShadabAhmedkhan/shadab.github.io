@@ -1,0 +1,174 @@
+/* navbar */
+.navbar-default {
+    background-color: rgb(102, 51, 153);
+    border-bottom: 7px solid rgb(137, 98, 177);
+}
+
+.navbar-default .navbar-nav > .active > a
+{
+    background-color: rgba(255, 255, 255, 0.23) !important;
+}
+
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #adadad;
+}
+.navbar-default .navbar-nav > li:hover
+{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color:rgba(33, 1, 122, 0.2) !important;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #adadad;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #000000;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #000000;
+    background-color: #D5D5D5;
+}
+
+.collapse, .navbar-collapse {
+    border-color: rgb(137, 98, 177) !important;
+}
+
+
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+    color: #000;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color:  rgb(137, 98, 177);
+    border-bottom-color:  rgb(137, 98, 177);
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color:  rgb(137, 98, 177);
+    border-bottom-color:  rgb(137, 98, 177);
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:  rgb(137, 98, 177);
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #090039;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #000000;
+    }
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+    border-color: rgba(255, 255, 255, 0.23);
+}
+
+.btn-default {
+    color: #FFFDFD;
+    background-color: #8962b1;
+    border-color: #8962b1;
+}
+
+.btn-default:hover,.btn-default:active
+{
+    background-color: rgba(255, 255, 255, 0.23) !important;
+}
+
+.footer
+{
+    background-color: rgb(103, 65, 114);
+    padding: 20px;
+    border: 1px solid rgb(103, 65, 114);
+    color: #ffffff;
+
+    background: -o-linear-gradient(rgb(103, 65, 114), #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradientrgb(103, 65, 114), #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(103, 65, 114), #000); /* Standard syntax (must be last) */
+}
+
+.background1
+{
+    background-color: #b0d4d4 !important;
+    position: relative;
+    bottom: 20px;
+}
+
+.background2
+{
+    background-color: white !important;
+}
+.background3
+{
+    background-color: rgb(78,205,196) !important;
+}
+
+.background4
+{
+    background-color: #aee4e4;
+}
+
+.background5
+{
+    background-color: #c5e4e9;
+}
+.background6
+{
+    background-color: rgb(54, 215, 183) !important;
+}
+.big-font {
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+
+.imgs
+{
+
+    width: 235px;
+}
+
+.imgs img
+{
+    width: 235px;
+}
+
+
+
+.pfont
+{
+    font-size: 18px;
+}
